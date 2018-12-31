@@ -1,4 +1,14 @@
-# Project Overview
+When you're all finished, write a `README` file detailing all steps required to successfully run the application. If you have added additional tests, provide documentation for what these future features are and what the tests are checking for.
+# Jeff Choate's README file
+
+I am Jeff Choate and this project is for my Udacity Front End web developer Nanodegree on the Jasmine testing framework.
+
+## How to run the application
+
+To run the application all one has to do is load the associated index.html file and scroll to the bottom of the page.  All required tests for this project will be listed at the bottom of the webpage.
+
+
+# Project Overview - Original README file is the content below
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
@@ -34,14 +44,14 @@ For a refresher (or reference) before you begin writing code, we recommend revie
     * This is the file in which you'll be writing your tests
     * Make sure to read all code comments here as well
     * Review the [Jasmine documentation](http://jasmine.github.io) if needed
--3. Edit the `allFeeds` variable in `app.js` to make the provided test fail
+3. Edit the `allFeeds` variable in `app.js` to make the provided test fail
     * See how Jasmine visualizes this failure in your application
     * Return the `allFeeds` variable to a passing state after reviewing the failed test
--4. Write a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined _and_ that the URL is not empty
+4. Write a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined _and_ that the URL is not empty
     * For example, how would you use a `for...of` loop in this test?
--5. Write a test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty
+5. Write a test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty
     * Think about how you wrote the previous test. What are you testing for this time?
--6. Write a new test suite named `"The menu"`
+6. Write a new test suite named `"The menu"`
     * What are you `describe`-ing in this test suite?
 7. Write a test that ensures the menu element is hidden by default
     * You'll have to analyze the HTML and the CSS to determine how the hiding/showing of the menu element is implemented
@@ -57,7 +67,7 @@ For a refresher (or reference) before you begin writing code, we recommend revie
     * How does the `loadFeed()` function in `app.js` work? Is it synchronous or asynchronous?
 11. Write a test suite named `"New Feed Selection"`
     * What are you `describe`-ing in this test suite?
-12. Write a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes
+12. Write a test that ensures 0when a new feed is loaded by the `loadFeed` function that the content actually changes
     * How is this test different from the previous test?
 
 Additionally, note that:
