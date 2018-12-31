@@ -34,14 +34,14 @@ For a refresher (or reference) before you begin writing code, we recommend revie
     * This is the file in which you'll be writing your tests
     * Make sure to read all code comments here as well
     * Review the [Jasmine documentation](http://jasmine.github.io) if needed
-3. Edit the `allFeeds` variable in `app.js` to make the provided test fail
+-3. Edit the `allFeeds` variable in `app.js` to make the provided test fail
     * See how Jasmine visualizes this failure in your application
     * Return the `allFeeds` variable to a passing state after reviewing the failed test
-4. Write a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined _and_ that the URL is not empty
+-4. Write a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined _and_ that the URL is not empty
     * For example, how would you use a `for...of` loop in this test?
-5. Write a test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty
+-5. Write a test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty
     * Think about how you wrote the previous test. What are you testing for this time?
-6. Write a new test suite named `"The menu"`
+-6. Write a new test suite named `"The menu"`
     * What are you `describe`-ing in this test suite?
 7. Write a test that ensures the menu element is hidden by default
     * You'll have to analyze the HTML and the CSS to determine how the hiding/showing of the menu element is implemented
