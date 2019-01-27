@@ -73,9 +73,11 @@ $(function() {
 
          var contentPriorChange;
          beforeEach(function(done) {
-            contentPriorChange = $('.feed').html();
             loadFeed(0, function() {
-                done();
+				contentPriorChange = $('.feed').html();
+				loadFeed(1, function(){
+					done();					
+				});
             });
          });
 
